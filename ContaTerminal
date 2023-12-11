@@ -1,0 +1,56 @@
+package ContaBanco;
+import java.util.Scanner;
+
+
+public class ContaTerminal {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numero;
+		String nome;
+		String agencia;
+		double saldo = 237.48;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite seu nome:");
+		nome = scanner.toString();
+		
+		System.out.println("Digite sua agência:");
+		agencia = scanner.toString();
+		
+		System.out.println("Digite sua conta:");
+		numero = scanner.nextInt();
+		
+		System.out.println("Olá" + nome + "obrigado por criar uma conta em nosso banco, sua agência é" + agencia + "conta" + numero + "e seu saldo" + saldo + "já está disponível para saque\"");
+		
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
